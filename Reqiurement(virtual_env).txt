@@ -1,0 +1,57 @@
+Django>=4.2
+djangorestframework>=3.14
+djangorestframework-simplejwt>=5.3
+psycopg2-binary>=2.9
+django-cors-headers>=4.3
+Pillow>=10.0
+python-dotenv>=1.0
+drf-yasg>=1.21
+gunicorn>=21.2
+
+# Optional (recommended)
+django-filter>=23.5
+
+Backend :
+run these in terminal:
+cd backend
+python manage.py runserver
+
+Frontend (React) — package.json dependencies
+
+If you're using React (with Vite or CRA), install these:
+
+npm install axios react-router-dom jwt-decode
+Then your package.json will include:
+{
+  "dependencies": {
+    "axios": "^1.6.0",
+    "react-router-dom": "^6.22.0",
+    "jwt-decode": "^4.0.0"
+  }
+}
+🔹 3. Optional (Recommended Frontend UI Tools)
+
+Install for better UI:
+
+npm install tailwindcss
+
+OR
+
+npm install bootstrap
+🔹 4. Folder Structure (Quick Reference)
+project/
+│
+├── backend/
+│   ├── requirements.txt
+│   ├── manage.py
+│   └── apps/
+│
+├── frontend/
+│   ├── package.json
+│   └── src/
+🔹 5. How to Install Everything
+Backend:
+pip install -r requirements.txt 
+Frontend:
+npm install
+
