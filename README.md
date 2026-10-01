@@ -55,18 +55,12 @@ http://127.0.0.1:8000/
 ## Application Flow
 
 ```text
-User
- ↓
+User 
 Register / Login
- ↓
 Browse Properties
- ↓
 Search & Filter
- ↓
 View Property & Agent
- ↓
 Book Visit / Leave Review
- ↓
 Manage Profile
 ```
 
